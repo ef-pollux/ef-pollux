@@ -1,0 +1,22 @@
+{
+  "name": "ef-pollux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -p 8080 -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ef-pollux/ef-pollux.git"
+  },
+  "author": "@klinkby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ef-pollux/ef-pollux/issues"
+  },
+  "homepage": "https://github.com/ef-pollux/ef-pollux#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
