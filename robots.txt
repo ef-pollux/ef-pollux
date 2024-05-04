@@ -1,0 +1,44 @@
+# Used for many other (non-commercial) purposes as well
+User-agent: CCBot
+Disallow: /
+
+# For new training only
+User-agent: GPTBot
+Disallow: /
+
+# Not for training, only for user requests 
+User-agent: ChatGPT-User
+Disallow: /
+
+# Marker for disabling Bard and Vertex AI
+User-agent: Google-Extended
+Disallow: /
+
+# Speech synthesis only?
+User-agent: FacebookBot
+Disallow: /
+
+# Multi-purpose, commercial uses; including LLMs
+User-agent: Omgilibot
+Disallow: /
+
+# Chinese search engines
+User-agent: Baiduspider
+User-agent: 360Spider
+User-agent: HaoSouSpider
+User-agent: JikeSpider
+User-agent: Sosospider
+User-agent: YoudaoBot
+Disallow: /
+
+# Russian search engine
+User-agent: Mail.Ru
+User-agent: Rambler
+User-agent: SputnikBot
+User-agent: Yandex
+User-agent: YandexMobileBot
+Disallow: /
+
+# Everyone
+User-agent: *
+Disallow: /assets
